@@ -1,0 +1,16 @@
+{
+  "name": "borozdov-claret",
+  "private": true,
+  "description": "A golden-hour editorial dashboard: warm parchment, white cards that lift by contrast, whispering headlines and one midnight wine for what you act on.",
+  "license": "MIT",
+  "scripts": {
+    "lint": "stylelint theme.css",
+    "build": "node scripts/build.mjs",
+    "screenshots": "python3 scripts/screenshots.py"
+  },
+  "devDependencies": {
+    "lucide-static": "^1.47.0",
+    "stylelint": "^17.0.0",
+    "stylelint-config-obsidianmd": "^0.1.0"
+  }
+}
